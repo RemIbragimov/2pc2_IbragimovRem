@@ -12,16 +12,17 @@ namespace pz_8
 
             int middle = 0;
 
-            int array_count = array.Length;
+            int array_count = array.Length; 
             int summary = 0;
-            
+        
             for (int i = 0; i < array_count; i++)
             {
                 summary += array[i];
             }
-            middle = summary / array_count; 
+            middle = summary / array_count;
             Console.WriteLine("Среднее арифметическое: {0}", middle);
 
+            
             int min = int.MaxValue;
             int max = int.MinValue;
             for (int i = 0; i < array_count; i++)
